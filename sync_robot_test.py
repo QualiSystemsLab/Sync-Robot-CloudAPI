@@ -607,9 +607,9 @@ db_name = 'Quali'
 exec_server_address = '192.168.41.88'
 exec_server_username = 'root'
 exec_server_password = 'qs1234'
-exec_server_working_directory = '/usr/local/robot-execution-server'
-robot_tests_directory = 'robot-tests'
-archive_output_directory = 'archive/output'
+exec_server_working_directory = '/usr/local/robot'
+robot_tests_directory = 'robot'
+archive_output_directory = '/usr/local/archive'
 local_working_directory = 'C:\\bin'
 
 cloudshell_server_address = 'localhost'
@@ -617,7 +617,7 @@ cloudshell_server_port = '9000'
 cloudshell_server_username = 'admin'
 cloudshell_server_password = 'admin'
 cloudshell_server_domain = 'Global'
-cloudshell_shared_robots_folder = 'Robots'
+cloudshell_shared_robots_folder = 'Robot'
 
 read_config_dict(config_data_dict)
 
