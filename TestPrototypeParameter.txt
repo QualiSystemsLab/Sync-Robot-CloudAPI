@@ -1,0 +1,18 @@
+				<TestPrototypeParameter>
+					<String Key="Name" Value="Param1"></String>
+					<Null Key="Description" Value=""></Null>
+					<VariableExpression Key="Expression">
+						<String Key="Name" Value="Param1"></String>
+					</VariableExpression>
+					<PublishType Key="PublishType" Value="In"></PublishType>
+					<DataType Key="DataType" Value="String"></DataType>
+					<DataDimension Key="DataDimension" Value="Scalar"></DataDimension>
+					<Boolean Key="HasDefault" Value="False"></Boolean>
+					<Boolean Key="IsMandatory" Value="False"></Boolean>
+					<String Key="EnumTypeName" Value=""></String>
+					<Boolean Key="IsInteger" Value="False"></Boolean>
+					<String Key="DisplayName" Value=""></String>
+					<Boolean Key="IsReturnValue" Value="False"></Boolean>
+					<Array Key="Tags" ElementType="String"></Array>
+					<Array Key="PossibleValues" ElementType="String"></Array>
+				</TestPrototypeParameter>

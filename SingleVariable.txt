@@ -1,0 +1,15 @@
+			<SingleVariable>
+				<DataType Key="Type" Value="String"></DataType>
+				<String Key="Name" Value="Param1"></String>
+				<Null Key="Description" Value=""></Null>
+				<Metadata Key="Metadata">
+					<Array Key="Entries" ElementType="Entry">
+						<Entry>
+							<String Key="HashKey" Value="Source"></String>
+							<String Key="HashValue" Value="User_x0020_Defined"></String>
+						</Entry>
+					</Array>
+				</Metadata>
+				<Boolean Key="Automatic" Value="False"></Boolean>
+				<String Key="InitialValue" Value="default_val"></String>
+			</SingleVariable>
