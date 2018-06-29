@@ -672,7 +672,8 @@ if not CLEAN:
         print(expected_folders_tests)
     delete_obsolete_shared_tests(quali_api, expected_folders_tests, cloudshell_shared_robots_folder)
 
-write_db(sql_server, db_name, repository_last_update_timestamp)
+if not FORCE:
+    write_db(sql_server, db_name, repository_last_update_timestamp)
 
 print("Synchronizing Robot repository to execution server...")
 clone_repository()
